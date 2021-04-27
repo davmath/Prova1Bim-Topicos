@@ -1,0 +1,24 @@
+GET http://localhost:3000/medico/listar
+
+###
+
+GET http://localhost:3000//medico/buscar
+
+###
+
+GET http://localhost:3000/medico/remover
+
+###
+GET http://localhost:3000/medico/alterar
+
+###
+POST http://localhost:3000/medico/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "David",
+    "crm": 001122334455,
+    "especialidade": "Oftalmologista"
+}
+###
+
